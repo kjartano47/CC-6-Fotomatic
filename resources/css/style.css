@@ -24,10 +24,18 @@ html {
 
 .image-container {
   overflow: hidden;
+  position: center;
+  height: 39.6875rem;
+  max-width: 100%;
+  padding: 0 1%;
 }
 
 .image-container img {
-  display: block;
+  display: flex;
+  width: 90%;
+  height: 65%;
+  margin: 2rem 2rem 2rem 2.5rem;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -141,6 +149,8 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  padding-left: 6.25rem;
+  padding-top: 10.625rem;
 }
 
 #sign-up-cta {
@@ -148,6 +158,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  width: 25.5rem;
+
 }
 
 #sign-up-cta .content {
@@ -233,6 +245,7 @@ header .mobile {
 
 /* Features Section */
 
+
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -258,6 +271,8 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  font-family: Roboto;
+  line-height: 1.2;
 }
 
 .feature h3 {
@@ -308,12 +323,15 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 100%;
+  font-family: Roboto;
 }
 
 #filters-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 300;
+  font-family: Roboto;
   color: white;
 }
 

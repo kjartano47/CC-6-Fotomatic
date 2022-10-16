@@ -8,6 +8,8 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+
+  
 }
 
 .center {
@@ -124,9 +126,10 @@ header .mobile {
 
 /*Main Content*/
 
-.background{
-  background-position: center;
+.banner-img{
+  background: url("../images/banner-landingpage.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 

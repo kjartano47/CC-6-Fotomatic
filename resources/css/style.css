@@ -16,6 +16,13 @@ html {
   text-align: center;
 }
 
+.center .image-container img{
+  display: flex;
+  width: 90%;
+  height: 65%;
+  margin: 2rem 2rem 2rem 2.5rem;
+  max-width: 100%;
+}
 .button {
   border-radius: 4px;
   background-color: #4a4a4a;
@@ -25,17 +32,15 @@ html {
 .image-container {
   overflow: hidden;
   position: center;
-  height: 39.6875rem;
-  max-width: 100%;
   padding: 0 1%;
+  vertical-align: baseline;
 }
 
 .image-container img {
-  display: flex;
-  width: 90%;
-  height: 65%;
-  margin: 2rem 2rem 2rem 2.5rem;
+  display: inline-flex;
   max-width: 100%;
+  padding: 0 1%;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -336,6 +341,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -363,6 +369,7 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+    background-color: #9b9b9b;
   }
 
   #filters-section .extra {
@@ -376,11 +383,12 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content-center {
   padding: 5rem 0;
+  text-align: center;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;

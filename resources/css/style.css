@@ -14,6 +14,7 @@ html {
 
 .center {
   text-align: center;
+  
 }
 
 .center .image-container img{
@@ -32,7 +33,6 @@ html {
 .image-container {
   overflow: hidden;
   position: center;
-  padding: 0 1%;
   vertical-align: baseline;
 }
 
@@ -80,7 +80,7 @@ header nav ul {
   display: flex;
   color: #4a4a4a;
   font-size: 1rem;
-  font-family: Roboto;
+  font-family: 'Roboto';
   line-height: 1.6;
 }
 
@@ -250,7 +250,6 @@ header .mobile {
 
 /* Features Section */
 
-
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -276,7 +275,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
-  font-family: Roboto;
+  font-family: 'Roboto';
   line-height: 1.2;
 }
 
@@ -292,6 +291,7 @@ header .mobile {
     font-size: 1.125rem;
     line-height: 1.3;
     font-weight: normal;
+    font-family: 'Roboto';
   }
 
   .feature h3 {
@@ -329,21 +329,21 @@ header .mobile {
   font-weight: bold;
   color: white;
   opacity: 100%;
-  font-family: Roboto;
+  font-family: 'Roboto';
 }
 
 #filters-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 300;
-  font-family: Roboto;
+  font-family: 'Roboto';
   color: white;
 }
 
 #filters-section .images-container {
   display: flex;
   max-width: 100%;
-  padding: 0 1%;
+  padding: 0px 1%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -423,16 +423,20 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+
 }
 
 footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
+  font-family: 'Roboto';
 }
 
 footer .copyright {
   flex-grow: 1;
+
+
 }
 
 @media only screen and (min-width: 760px) {
